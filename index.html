@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Afiliación</title>
+</head>
+
+<body>
+    <h1>Vení al Gym! 💪🏼</h1>
+    
+    <form action="">
+        <fieldset>
+            <legend>
+                🙋🏼‍♂️ Datos Personales 👀
+            </legend>
+
+            <div class="fieldset_interno">
+                <label>
+                    Nombre:* <input class="barras" type="text" required autofocus>
+                </label>
+                <br>
+                <label>
+                    Apellido:* <input class="barras" type="text" required>
+                </label>
+                <br>
+                <label>
+                    Documento:* <input class="barras" type="text" required>
+                </label>
+                <br>
+                <label>
+                    Nacionalidad:* 
+                    <select class="barras" required>
+                        <option>-Seleccionar-</option>
+                        <option>Argentina</option>
+                        <option>Brasileña</option>
+                        <option>Uruguaya</option>
+                        <option>Otra</option>
+                    </select>
+                </label>
+                <br>
+                <label>Contanos un poco de vos...
+                    <textarea rows="3" cols="40"></textarea>
+                </label>
+                <br>
+                <label>
+                    Sexo:* 
+                    <br>
+                    <input type="radio" name="sexo" value="femenino"> Femenino
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                    <input type="radio" name="sexo" value="otro"> Otro
+                </label>
+            </div>
+        </fieldset>
+        
+        <div class="separador"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+        <fieldset>
+            <legend>
+                📱 Datos de Contacto 📧
+            </legend>
+
+            <div class="fieldset_interno">
+                <label>
+                    Teléfono: <input class="barras" type="text" placeholder="Código de área y número">
+                </label>
+                <br>
+                <label>Dirección de correo electrónico:* 
+                    <input class="barras type="email" placeholder="Ej: mail@gmail.com">
+                </label>
+            </div>
+        </fieldset>
+
+        <div class="separador"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+        <fieldset>
+            <legend>
+                🚴🏼‍♂️ Actividades 🤸🏼‍♂️
+            </legend>
+
+            <p class="aclaracion">
+                Por favor, indicá cuáles actividades te interesan.
+            </p>
+
+            <p>
+                Sede Palermo:
+            </p>
+
+            <label>
+                <input type="checkbox"> Básquet
+                <input type="checkbox"> Boxeo
+                <input type="checkbox"> Fútbol
+                <input type="checkbox"> Tenis
+            </label>
+
+            <p>
+                Sede Rosario:
+            </p>
+
+            <label>
+                <input type="checkbox"> Básquet
+                <input type="checkbox"> Fútbol
+                <input type="checkbox"> Rugby
+                <input type="checkbox"> Voley
+            </label>
+        </fieldset>
+        
+        <div class="final_form">
+            <label>
+                <input type="checkbox" required> Acepto las condiciones *
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"> Deseo recibir novedades
+            </label>
+            <br>
+            <p>
+                *: campo obligatorio.
+            </p>
+        </div>
+        
+        <div class="botones_final">
+            <button type="submit">Iniciar afiliación</button>
+            <button type="reset">Restablecer</button>
+        </div>
+    </form>
+</body>
+
+</html>
