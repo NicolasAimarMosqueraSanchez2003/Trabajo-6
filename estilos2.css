@@ -1,3 +1,189 @@
-body{
+/* body{
     background-color: red
+} */
+
+/* Paleta de colores Retro */
+/* #FFBF00 Amarillo retro */
+/* #D72638 Rojo vibrante */
+/* #3B3561 Azul oscuro */
+/* #F8E9A1 Crema vintage */
+/* #2E4057 Azul grisáceo */
+/* #ffffff White */
+
+body {
+    box-sizing: border-box;
+    background-color: #F8E9A1;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/retro002.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
+button.undido {
+    background-color: #D72638;
+    border-color: black;
+    color: #F8E9A1;
+}   
+.estilos {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Press Start 2P", normal;
+    color: white;
+    border: solid 10px #D72638;
+    border-left: solid 15px #FFBF00;
+    border-right: solid 15px #FFBF00;
+    text-align: center;
+    width: 65%;
+    text-shadow: 4px 4px #2E4057;
+    font-size: 2.5em;
+    animation: retro-glow 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes retro-glow {
+    0% {
+        text-shadow: 4px 4px #2E4057, -4px -4px #D72638;
+    }
+    100% {
+        text-shadow: 6px 6px #D72638, -6px -6px #2E4057;
+    }
+}
+
+form {
+    width: 70%;
+
+}
+
+legend { 
+    background-color: #3B3561;
+    color: #F8E9A1;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: start;
+}
+
+select {
+    text-align: start;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.separador {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.separador span {
+    width: 10px;
+    height: 10px;
+    background-color: #FFBF00;
+    border-radius: 50%;
+}
+
+fieldset {
+    background-color: #D72638;
+    border: 3px dashed #3B3561;
+    padding: 15px;
+ 
+}
+
+fieldset:focus-within {
+    background-color: #FFBF00;
+}
+
+.fieldset_interno {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.barras {
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+input:focus {
+    background-color: #3B3561;
+    color: #F8E9A1;
+}
+
+input::placeholder {
+    color: #2E4057;
+}
+
+textarea {
+    width: 100%;
+    height: 10em;
+    border-radius: 5px;
+    text-align: right;
+    margin: 10px 0px;
+    resize: vertical;
+    background-color: #F8E9A1;
+  
+}
+
+textarea:focus {
+    background-color: #3B3561;
+    color: #F8E9A1;
+}
+
+.aclaracion {
+    font-size: 12px;
+    font-style: italic;
+    color: #3B3561;
+}
+
+.final_form {
+    color: white;
+    margin:15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botones_final {
+    display: flex;
+    justify-content: center;
+}
+
+button {     
+    background-color: #D72638;
+    border-color: #2E4057;
+    border-radius: 5px;
+    color: #F8E9A1;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+    background-color: #FFBF00;
+    border-color: black;
+    color: black;
+}   
+
+button:focus {
+    background-color: #FFBF00;
+    border-color: black;
+    color: black;
+} 
+
+
+
