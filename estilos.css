@@ -16,7 +16,7 @@ button.undido{
 }   
 
 .estilos{
-    color:#E8EAED;
+    color: #E8EAED;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,4 +146,28 @@ button:focus{
     background-color: #A5BCB9;
     border-color: black;
     color: black;
+}
+
+@media (max-width: 768px) {
+
+    body{
+        margin: 10px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .barras {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+
+    .botones_final button {
+        width: 100%;
+        padding: 18px;
+        font-size: 18px;
+    }
 }

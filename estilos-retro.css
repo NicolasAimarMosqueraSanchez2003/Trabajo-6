@@ -25,10 +25,11 @@ body {
 }
 
 button.undido {
-    background-color: #D72638;
+    background-color: #FFBF00;
     border-color: black;
-    color: #F8E9A1;
-}   
+    color: black;
+} 
+
 .estilos {
     color: #ffffff;
     display: flex;
@@ -36,6 +37,7 @@ button.undido {
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+    text-shadow: 2px 2px black;
 }
 
 h1 {
@@ -99,7 +101,6 @@ fieldset {
     background-color: #D72638;
     border: 3px dashed #3B3561;
     padding: 15px;
- 
 }
 
 fieldset:focus-within {
@@ -137,7 +138,6 @@ textarea {
     margin: 10px 0px;
     resize: vertical;
     background-color: #F8E9A1;
-  
 }
 
 textarea:focus {
@@ -156,6 +156,7 @@ textarea:focus {
     margin:15px;
     font-size: 20px;
     font-weight: bold;
+    text-shadow: 2px 2px black;
 }
 
 .botones_final {

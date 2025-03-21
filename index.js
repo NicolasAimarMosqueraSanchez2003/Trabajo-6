@@ -1,7 +1,7 @@
 const estilos = [
     "estilos.css",
-    "estilos2.css",
-    "estilos3.css",
+    "estilos-retro.css",
+    "estilos-urbano.css",
     "none"
 ]
 
